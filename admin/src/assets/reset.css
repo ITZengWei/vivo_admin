@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+    font-size: 14px;
+    color: #303133;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul,
+li {
+    list-style: none;
+}
+/* 浮动工具 */
+.floatRight {
+    float: right;
+}
+
+.floatLeft {
+    float: left;
+}
+
+/* 面板容器 */
+.panel {
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+[class*=" el-icon-"],
+[class^=el-icon-] {
+    font-size: 20px;
+}
+
+
+/* 表格 居中 */
+.el-table .cell {
+    text-align: center;
+}
+

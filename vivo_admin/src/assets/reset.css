@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  font-size: 14px;
+  color: #363636;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body{
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  font-size: 14px;
+  color: #363636;
+  background-color: #f0f0f0;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+ul{
+  list-style: none;
+}
+
+.clearFix::after {
+  content: '';
+  visibility: hidden;
+  line-height: 0;
+  clear: both;
+
+}
+
+.floatRight {
+  float: right;
+}
+
+.floatLeft {
+  float: left;
+
+}
+
+
+
